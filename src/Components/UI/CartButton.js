@@ -1,21 +1,12 @@
 import { Button } from "react-bootstrap"
-import styled from "styled-components"
 
-const StyledButton = styled(Button)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-const ButtonTxt = styled.div`
-  font-weight: 500;
-`
 const CartButton = () => {
   return (
-    <StyledButton variant="primary">
+    <Button variant="primary">
       <svg
-        width="14"
-        height="14"
-        viewBox="0 0 16 16"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -23,8 +14,8 @@ const CartButton = () => {
           fill="#fff"
         ></path>
       </svg>
-      <ButtonTxt>Cart</ButtonTxt>
-    </StyledButton>
+      <span>Cart</span>
+    </Button>
   )
 }
 export default CartButton

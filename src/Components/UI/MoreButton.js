@@ -1,19 +1,18 @@
 import styled from "styled-components"
 
 const Button = styled.div`
-  display: flex;
   position: relative;
-  align-items: center;
+  align-self: center;
+  cursor: pointer;
 `
-const BtnTxt = styled.div``
 
 const MoreButton = () => {
   return (
     <Button>
-      <BtnTxt>More</BtnTxt>
+      <span>More</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 20"
+        viewBox="0 0 24 24"
         width="24"
         height="24"
       >

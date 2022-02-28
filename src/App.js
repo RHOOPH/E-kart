@@ -1,15 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import NavigationBar from "./Components/NavigationBar"
-import styled from "styled-components"
+import Content from "./Components/Content"
 
-const Body = styled.div`
-  background-color: #f1f3f6;
-`
 function App() {
   return (
-    <Body className="App">
+    <div className="App">
       <NavigationBar />
-    </Body>
+      <Content />
+    </div>
   )
 }
 export default App
