@@ -4,6 +4,7 @@ const Button = styled.div`
   position: relative;
   align-self: center;
   cursor: pointer;
+  flex: 0 0 auto;
 `
 
 const MoreButton = () => {

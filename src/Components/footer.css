@@ -1,0 +1,23 @@
+footer {
+  background-color: #172337;
+}
+footer span {
+  color: #878787;
+  font-size: 12px;
+}
+footer a,
+p {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer .list-group-item {
+  background-color: transparent;
+}
+footer a:hover {
+  color: #fff;
+  font-weight: 600;
+}
+footer ul {
+  padding-left: 0;
+}

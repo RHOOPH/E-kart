@@ -5,7 +5,7 @@ import CartButton from "./UI/CartButton"
 import MoreButton from "./UI/MoreButton"
 import Navbar from "react-bootstrap/Navbar"
 import styled from "styled-components"
-import data from "./CategoriesData.json"
+import data from "../Assets/CategoriesData.json"
 
 const Container = styled.div`
   display: flex;
@@ -26,6 +26,7 @@ const BottomContainer = styled(Container)`
 `
 const Category = styled.span`
   cursor: pointer;
+  flex-shrink: 0;
 `
 const category = data.map((obj) => {
   return (

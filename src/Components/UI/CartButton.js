@@ -1,8 +1,13 @@
 import { Button } from "react-bootstrap"
+import styled from "styled-components"
+
+const Cart = styled(Button)`
+  flex: 0 0 auto;
+`
 
 const CartButton = () => {
   return (
-    <Button variant="primary">
+    <Cart variant="primary">
       <svg
         width="20"
         height="20"
@@ -15,7 +20,7 @@ const CartButton = () => {
         ></path>
       </svg>
       <span>Cart</span>
-    </Button>
+    </Cart>
   )
 }
 export default CartButton
