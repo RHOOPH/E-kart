@@ -21,7 +21,7 @@ const Ad = styled.div`
   height: 360px;
 `
 const AdLeft = styled(Ad)`
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem 1rem 0;
 `
 const Image = styled.img`
   object-fit: fill;
