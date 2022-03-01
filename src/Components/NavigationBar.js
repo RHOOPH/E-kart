@@ -20,10 +20,15 @@ const Spacing = styled.div`
 const FillerDiv = styled.div`
   height: 3.45rem;
 `
+const BottomNavbar = styled(Navbar)`
+  min-width: 978px;
+  justify-content: center;
+`
 const BottomContainer = styled(Container)`
   color: #000;
   justify-content: space-between;
 `
+
 const Category = styled.span`
   cursor: pointer;
   flex-shrink: 0;
@@ -65,9 +70,9 @@ const NavigationBar = () => {
         </Container>
         <Spacing />
       </Navbar>
-      <Navbar variant="light" bg="light" className="justify-content-center">
+      <BottomNavbar variant="light" bg="light">
         <BottomContainer>{category}</BottomContainer>
-      </Navbar>
+      </BottomNavbar>
     </>
   )
 }

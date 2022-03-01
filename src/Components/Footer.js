@@ -1,10 +1,15 @@
 import "./footer.css"
+import styled from "styled-components"
+
+const FooterContainer = styled.footer`
+  min-width: 978px;
+`
 
 const Footer = () => {
   return (
-    <footer>
+    <FooterContainer>
       <div className="row mx-0">
-        <div className="col-md-6">
+        <div className="col-6">
           <div className="row">
             <div className="col">
               <ul>
@@ -96,7 +101,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-6">
           <div className="row">
             <div className="col-6 d-flex flex-column align-items-start">
               <span>Mail Us</span>
@@ -117,7 +122,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </FooterContainer>
   )
 }
 export default Footer
