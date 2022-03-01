@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/E-kart/static/css/main.84d222d7.css",
+    "main.js": "/E-kart/static/js/main.725ad132.js",
+    "index.html": "/E-kart/index.html",
+    "main.84d222d7.css.map": "/E-kart/static/css/main.84d222d7.css.map",
+    "main.725ad132.js.map": "/E-kart/static/js/main.725ad132.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84d222d7.css",
+    "static/js/main.725ad132.js"
+  ]
+}
