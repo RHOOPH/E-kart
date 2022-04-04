@@ -19,10 +19,7 @@ const Products = [1, 2, 3, 4, 5, 6, 7, 8].map((i) => <Product key={i} />)
 
 const ChevronContainer = styled.div`
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 200px;
+  height: 100%;
   z-index: 5;
 `
 
@@ -33,6 +30,7 @@ const Chevron = styled.div`
   background-color: hsla(0, 0%, 100%, 0.98);
   border-radius: 0 4px 4px 0;
   box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
+  margin-top: 70px;
 `
 const ChevronContainerRight = styled(ChevronContainer)`
   right: 0;
