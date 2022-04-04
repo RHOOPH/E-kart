@@ -1,18 +1,21 @@
 import styled from "styled-components"
 
 const Item = styled.div`
-display:flex;
-flex-flow:column;
-align-items:center;
-cursor:pointer
-margin:0 .5rem;
-width:200px;
-flex:0 0 auto;
-margin-right: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  width: 200px;
+  flex: 0 0 auto;
+  margin-right: 1rem;
 `
 
 const Img = styled.img`
   width: 100%;
+  &:hover {
+    transform: scale(1.025) translateY(-0.125%);
+  }
 `
 const Description = styled.div`
   display: flex;

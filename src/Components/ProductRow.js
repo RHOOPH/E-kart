@@ -6,12 +6,14 @@ import { useRef, useState, useEffect } from "react"
 
 const Body = styled(Card.Body)`
   position: relative;
+  padding: 0 1rem 1rem 1rem;
 `
 const ProductsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   overflow: hidden;
   scroll-behavior: smooth;
+  padding-top: 1rem;
 `
 const Products = [1, 2, 3, 4, 5, 6, 7, 8].map((i) => <Product key={i} />)
 
