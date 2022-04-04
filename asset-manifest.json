@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/E-kart/static/css/main.78415757.css",
-    "main.js": "/E-kart/static/js/main.1a8ff620.js",
+    "main.js": "/E-kart/static/js/main.9605341c.js",
     "index.html": "/E-kart/index.html",
     "main.78415757.css.map": "/E-kart/static/css/main.78415757.css.map",
-    "main.1a8ff620.js.map": "/E-kart/static/js/main.1a8ff620.js.map"
+    "main.9605341c.js.map": "/E-kart/static/js/main.9605341c.js.map"
   },
   "entrypoints": [
     "static/css/main.78415757.css",
-    "static/js/main.1a8ff620.js"
+    "static/js/main.9605341c.js"
   ]
 }
